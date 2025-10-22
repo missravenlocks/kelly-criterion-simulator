@@ -1,1 +1,1 @@
-# kelly-criterion-simulator
+# Kelly Criterion Simulator
