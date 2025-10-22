@@ -7,21 +7,17 @@ This project demonstrates the **Kelly Criterion**, a fundamental concept in quan
 ## 🧠 Theory
 
 If a game (or trade) has:
-- Win probability **p**
-- Loss probability **1 − p**
-- Payoff ratio **b** (you win *b* times your bet if successful)
+- Win probability $$p$$
+- Loss probability $$1 − p$$
+- Payoff ratio $$b$$ (you win $$b$$ times your bet if successful)
 
 Then the **expected log growth** is:
 
-\[
-g(f) = p \ln(1 + f b) + (1 - p) \ln(1 - f)
-\]
+$$g(f) = p \ln(1 + f b) + (1 - p) \ln(1 - f)$$
 
 Maximizing this with respect to **f** gives the optimal bet fraction:
 
-\[
-f^* = \frac{p(b + 1) - 1}{b}
-\]
+$$f^* = \frac{p(b + 1) - 1}{b}$$
 
 The Kelly fraction maximizes long-term growth, balancing reward and risk.
 
